@@ -1,14 +1,15 @@
 # README.md
 
-IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
+My shared repository link for assignment 2: https://github.com/Sandhyagauro/A2-Sandhya-21541993
 
-Please include your shared repository link here:
+## Done 
+TASK 1 - USER INTERFACE CHANGES 
+1. Change the button label from contact component from "Delete" to "Delete Contact" 
+2. Change the button label in phone component from "Add" to e.g "Add Choiru’s Phone" 
+3. Change the placeholder text "Name" with input type text into a drop-down menu with 4 categories 
+4. In the <tr> element of the table, change the label "Name" to "Phone Type" 
 
-Example:
-Choiru's shared repository: https://github.com/choiruzain-latrobe/Assignment2.git
 
-
-Make sure for **your case it is in Private**
 ## Access Database
 1 **Plsql Cheat Sheet:**
 You can refer to the PostgreSQL cheat sheet [here](https://www.postgresqltutorial.com/postgresql-cheat-sheet/).
