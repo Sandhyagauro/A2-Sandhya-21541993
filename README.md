@@ -3,11 +3,16 @@
 My shared repository link for assignment 2: https://github.com/Sandhyagauro/A2-Sandhya-21541993
 
 ## Done 
-TASK 1 - USER INTERFACE CHANGES 
-1. Change the button label from contact component from "Delete" to "Delete Contact" 
-2. Change the button label in phone component from "Add" to e.g "Add Choiru’s Phone" 
-3. Change the placeholder text "Name" with input type text into a drop-down menu with 4 categories 
-4. In the <tr> element of the table, change the label "Name" to "Phone Type" 
+TASK 2 - API COMMAND DEMONSTRATIONS
+The screenshots are inside the folder frontend/src/screenshots
+1. Show the API command for “Show Contact” and provide a screenshot of the output (1 Mark)
+2. Show the API command for “Add Contact” and provide a screenshot of the output (1 Mark)
+3. Show the API command for “Delete Contact” and provide a screenshot of the output (1 Marks)
+4. Show the API command for “Update Contact” and provide a screenshot of the output (1 Marks)
+5. Show the API command for “Show Phone” and provide a screenshot of the output (1 Mark)
+6. Show the API command for “Add Phone” and provide a screenshot of the output (1 Marks)
+7. Show the API command for “Delete Phone” and provide a screenshot of the output (1 Marks)
+8. Show the API command for “Update Phone” and provide a screenshot of the output (1 Marks)
 
 
 ## Access Database
