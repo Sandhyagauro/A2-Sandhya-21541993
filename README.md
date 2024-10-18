@@ -3,16 +3,13 @@
 My shared repository link for assignment 2: https://github.com/Sandhyagauro/A2-Sandhya-21541993
 
 ## Done 
-TASK 2 - API COMMAND DEMONSTRATIONS
-The screenshots are inside the folder frontend/src/screenshots
-1. Show the API command for “Show Contact” and provide a screenshot of the output (1 Mark)
-2. Show the API command for “Add Contact” and provide a screenshot of the output (1 Mark)
-3. Show the API command for “Delete Contact” and provide a screenshot of the output (1 Marks)
-4. Show the API command for “Update Contact” and provide a screenshot of the output (1 Marks)
-5. Show the API command for “Show Phone” and provide a screenshot of the output (1 Mark)
-6. Show the API command for “Add Phone” and provide a screenshot of the output (1 Marks)
-7. Show the API command for “Delete Phone” and provide a screenshot of the output (1 Marks)
-8. Show the API command for “Update Phone” and provide a screenshot of the output (1 Marks)
+TASK 3 - DATABASE MODELLING WITH SEQUELIZE AND TEST THE API COMMANDS WHEN THE
+DATABASE MODIFICATION DONE 
+1. Modified the contacts Table with the given attributes id, name and address
+2. Modified the phones Table with id, phone_type, phone_number and contactId
+3. Adjusted the Front-End codes
+a. Modified the front-end to align with the updated backend structure.
+4. Test done using All APIs related to table modified contacts and phones. The output of the api check using command line and the output appeared screenshot is listed inside the folder /frontend/src/screenshots/task3
 
 
 ## Access Database
