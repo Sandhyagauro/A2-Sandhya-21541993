@@ -3,13 +3,13 @@
 My shared repository link for assignment 2: https://github.com/Sandhyagauro/A2-Sandhya-21541993
 
 ## Done 
-TASK 3 - DATABASE MODELLING WITH SEQUELIZE AND TEST THE API COMMANDS WHEN THE
-DATABASE MODIFICATION DONE 
-1. Modified the contacts Table with the given attributes id, name and address
-2. Modified the phones Table with id, phone_type, phone_number and contactId
-3. Adjusted the Front-End codes
-a. Modified the front-end to align with the updated backend structure.
-4. Test done using All APIs related to table modified contacts and phones. The output of the api check using command line and the output appeared screenshot is listed inside the folder /frontend/src/screenshots/task3
+TASK 4 - EXPANDING THE EXISTING TABLES 
+1. Table Creation: Create a new table named `companies` with the following attributes 
+   a. company_id: Primary key, uniquely identifies each company
+   b. company_name: Name of the company
+   c. company_address: Address of the company
+   d. contact_id: Foreign key referencing contact_id in the contacts table
+2. Developed APIs to manage records in the companies table
 
 
 ## Access Database
