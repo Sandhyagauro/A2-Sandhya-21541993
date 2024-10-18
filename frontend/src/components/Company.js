@@ -7,7 +7,7 @@ function Company(props) {
         });
 
         let newCompanies = companies.filter((p) => {
-            return p.id !== company.company_id;
+            return p.company_id !== company.company_id;
         });
 
         setCompanies(newCompanies);

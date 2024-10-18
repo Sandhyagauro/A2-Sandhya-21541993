@@ -3,7 +3,7 @@ import { useState } from 'react';
 function NewCompany(props) {
     const {contact, companies, setCompanies} = props;
     const [company_name, setName] = useState('');
-    const [company_address, setAddress] = useState('Home');
+    const [company_address, setAddress] = useState('');
 
     async function createCompany(e) {
         e.preventDefault();
@@ -21,7 +21,7 @@ function NewCompany(props) {
 
         const data = await response.json();
 
-        if (data.id) {
+        if (data.company_id) {
             setCompanies([...companies, data]);
         }
 
@@ -39,4 +39,4 @@ function NewCompany(props) {
 	);
 }
 
-export default NewPhone;
+export default NewCompany;

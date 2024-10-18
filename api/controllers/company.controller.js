@@ -7,7 +7,7 @@ exports.create = (req, res) => {
     const company = {
         company_name: req.body.company_name,
         company_address: req.body.company_address,
-        contact_id: parseInt(req.params.contactId),
+        contact_id: parseInt(req.params.contact_id),
     };
 
     Companies.create(company)
@@ -27,7 +27,7 @@ exports.findAll = (req, res) => {
 
     Companies.findAll({
         where: {
-            contactId: parseInt(req.params.contactId)
+            contact_id: parseInt(req.params.contact_id)
         }
     })
         .then(data => {
@@ -44,8 +44,8 @@ exports.findAll = (req, res) => {
 exports.findOne = (req, res) => {
     Companies.findOne({
         where: {
-            contactId: req.params.contactId,
-            id: req.params.companyId
+            contact_id: req.params.contact_id,
+            company_id: req.params.company_id
         }
     })
         .then(data => {
@@ -60,10 +60,10 @@ exports.findOne = (req, res) => {
 
 // Update one company by id
 exports.update = (req, res) => {
-    const id = req.params.companyId;
+    const company_id = req.params.company_id;
 
     Companies.update(req.body, {
-        where: { id: id, contactId: req.params.contactId }
+        where: { company_id: company_id, contact_id: req.params.contact_id }
     })
         .then(num => {
             if (num == 1) {
@@ -78,17 +78,17 @@ exports.update = (req, res) => {
         })
         .catch(err => {
             res.status(500).send({
-                message: "Error updating Company with id=" + id
+                message: "Error updating Company with id=" + company_id
             });
         });
 };
 
 // Delete one Company by id
 exports.delete = (req, res) => {
-    const id = req.params.companyId;
+    const company_id = req.params.company_id;
 
     Companies.destroy({
-        where: { id: id, contactId: req.params.contactId }
+        where: { company_id: company_id, contact_id: req.params.contact_id }
     })
         .then(num => {
             if (num == 1) {
@@ -103,7 +103,7 @@ exports.delete = (req, res) => {
         })
         .catch(err => {
             res.status(500).send({
-                message: "Could not delete Company with id=" + id
+                message: "Could not delete Company with id=" + company_id
             });
         });
 };

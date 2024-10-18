@@ -3,13 +3,10 @@
 My shared repository link for assignment 2: https://github.com/Sandhyagauro/A2-Sandhya-21541993
 
 ## Done 
-TASK 4 - EXPANDING THE EXISTING TABLES 
-1. Table Creation: Create a new table named `companies` with the following attributes 
-   a. company_id: Primary key, uniquely identifies each company
-   b. company_name: Name of the company
-   c. company_address: Address of the company
-   d. contact_id: Foreign key referencing contact_id in the contacts table
-2. Developed APIs to manage records in the companies table
+TASK 5 - FRONT END Changes
+1. Created a front-end interface to manage the newly created companies table, including functionality for
+adding, editing, deleting, and updating records.
+2. The screenshots are in folder frontend/src/screenshots/task5
 
 
 ## Access Database
